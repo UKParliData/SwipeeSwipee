@@ -64,6 +64,8 @@ define(['Scripts/text!modules/singletile.html'], function (htmlText) {
                 var edm = ko.utils.arrayFirst(self.edms(), function (item) {
                     return item.id == self.currentEdm().id;
                 });
+                if (edm == null)
+                    return;
                 edm.isLiked(isLiked);
                 var nextEdm = ko.utils.arrayFirst(self.edms(), function (item) {
                     return item.isLiked() == null;
