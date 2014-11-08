@@ -131,6 +131,7 @@
     <Content Include="Scripts\knockout-3.2.0.js" />
     <Content Include="Scripts\modules\singletile.js" />
     <Content Include="Scripts\r.js" />
+    <Content Include="Scripts\require.js" />
     <Content Include="Scripts\SwipeeSwipee.js" />
     <Content Include="Web.config" />
   </ItemGroup>
