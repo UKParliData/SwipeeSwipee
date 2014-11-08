@@ -31,6 +31,7 @@
                 this.name = name;
                 this.party = party;
                 this.twitter = twitter;
+                this.score = 1;
             };
 
             Generic.prototype.earlyDatMotion = function (urlId, title, motionText, signatures) {
