@@ -6,6 +6,11 @@
     height:15px;    
 }
 
+.busy{
+    display:inline-block;
+    width:30px;
+}
+
 .edm-body{
     min-height: 400px;
 }

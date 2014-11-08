@@ -115,6 +115,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="index.html" />
     <Content Include="modules\busyindicator.html" />
+    <Content Include="modules\resultlist.html" />
     <Content Include="modules\singletile.html" />
     <Content Include="Scripts\jquery-ui-1.11.1.js" />
     <Content Include="Scripts\jquery-ui.min-1.11.1.js" />
@@ -145,6 +146,7 @@
   <ItemGroup>
     <Content Include="Scripts\knockout-3.2.0.debug.js" />
     <Content Include="Scripts\knockout-3.2.0.js" />
+    <Content Include="Scripts\modules\resultlist.js" />
     <Content Include="Scripts\modules\singletile.js" />
     <Content Include="Scripts\r.js" />
     <Content Include="Scripts\require.js" />

@@ -15,6 +15,11 @@
     <nav class="navbar">
         <div class="container text-center">
             <img src="Content/images/logo.png" width="705" height="85" alt="SwipeeSwipee" />
+            <span class="busy">
+                <!-- ko if: isLoading()==true -->
+                    <busy-indicator></busy-indicator>
+                <!-- /ko -->
+            </span>
             <div class="nav navbar-nav navbar-right pull-bottom-padding-60">
                 <span>
                     <strong>Data Matters</strong>
@@ -26,13 +31,6 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <!-- ko if: isLoading()==true -->
-                    <div class="row">
-                        <div class="col-md-1 col-md-offset-5">
-                            <busy-indicator></busy-indicator>
-                        </div>
-                    </div>
-                <!-- /ko -->
                 <!--ko if: ((selectedComponent()!=null) && (selectedComponent()!=''))-->
                     <div data-bind="component: { name: selectedComponent, params: parameters }"></div>
                 <!-- /ko -->

@@ -75,8 +75,12 @@ define(['Scripts/text!modules/singletile.html'], function (htmlText) {
                 });
             };
 
-            self.showResult = function () {
-                window.conductorVM.parameters({ selectedItem: this });
+            self.showResults = function () {
+                var mps = self.mps();
+                mps.sort(function (left, right) {
+                    return left.score === right.score ? (left.id * 1) - (right.id * 1) : left.score < right.score ? 1 : -1;
+                });
+                window.conductorVM.parameters({ mps: mps });
                 window.conductorVM.selectedComponent("result-list");
             };
 
@@ -106,7 +110,6 @@ define(['Scripts/text!modules/singletile.html'], function (htmlText) {
                 self.showInfo.dispose();
             };
 
-            //self.showInfo();
         },
         template: htmlText
     }
