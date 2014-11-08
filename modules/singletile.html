@@ -3,7 +3,7 @@
         <img data-bind="attr:{src:'http://lorempixel.com/'+pictureWidth()+'/'+pictureHeight()+'/nature/'}" />
     </div>
     <div class="img-overlay1" data-bind="attr:{width:pictureWidth(), height:pictureHeight()}"></div>
-    <div class="panel-edm">
+    <div class="panel-edm" data-bind="event:{swipleleft: edmIsNotLiked,swipleright: edmIsLiked}">
         <div class="edm-text">
             <div class="text-center">
                 <h1 data-bind="text: currentEdm().displayTitle"></h1>
