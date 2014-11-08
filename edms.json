@@ -1,0 +1,189 @@
+{ "format" : "linked-data-api", "DDP API Version" : "0.5", "result" : {"_about" : "http://lda.data.parliament.uk/edms.json?_sort=-dateTabled&_properties=title,motionText,signature.member.twitter,signature.member.fullName,signature.member.party&_view=basic&_page=0&_pageSize=10", "definition" : "http://lda.data.parliament.uk/meta/edms.json?_sort=-dateTabled&_properties=title,motionText,signature.member.twitter,signature.member.fullName,signature.member.party&_view=basic", "extendedMetadataVersion" : "http://lda.data.parliament.uk/edms.json?_sort=-dateTabled&_properties=title,motionText,signature.member.twitter,signature.member.fullName,signature.member.party&_view=basic&_metadata=all&_pageSize=10&_page=0", "first" : "http://lda.data.parliament.uk/edms.json?_sort=-dateTabled&_properties=title,motionText,signature.member.twitter,signature.member.fullName,signature.member.party&_view=basic&_pageSize=10&_page=0", "isPartOf" : {"_about" : "http://lda.data.parliament.uk/edms.json?_sort=-dateTabled&_properties=title,motionText,signature.member.twitter,signature.member.fullName,signature.member.party&_view=basic", "definition" : "http://lda.data.parliament.uk/meta/edms.json?_sort=-dateTabled&_properties=title,motionText,signature.member.twitter,signature.member.fullName,signature.member.party&_view=basic", "hasPart" : "http://lda.data.parliament.uk/edms.json?_sort=-dateTabled&_properties=title,motionText,signature.member.twitter,signature.member.fullName,signature.member.party&_view=basic&_page=0&_pageSize=10", "type" : "http://purl.org/linked-data/api/vocab#ListEndpoint"}
+    , "items" : [{"_about" : "http://data.parliament.uk/resources/106681", "motionText" : "That this House congratulates the boycott, divestment and sanctions movement and Oxfam whose pressure has led to the Israeli-owned SodaStream soft drinks company's decision to move its factory from the occupied West Bank; recalls that the actress Scarlet Johansson severed her links with Oxfam after being expensively hired by SodaStream; notes that the factory move comes after retailers across Europe and North America dropped the company's brands and that as a result its share price tumbled; and believes that the boycott movement's widespread support is forcing companies and governments to take positive action against Israel.", "signature" : [{"_about" : "http://data.parliament.uk/resources/106681/signatures/1", "member" : [{"_about" : "http://data.parliament.uk/members/609", "fullName" : "Mr George Galloway", "party" : "Respect", "twitter" : "https://twitter.com/georgegalloway"}
+        ]}
+      ], "title" : "SODASTREAM FACTORY MOVE", "type" : "http://data.parliament.uk/schema/parl#EarlyDayMotion"}
+    , {"_about" : "http://data.parliament.uk/resources/106734", "motionText" : "That this House believes that the proposed HS3 high speed rail link for the north of England will provide substantial economic and social advantages; is encouraged that the Prime Minister has supported the project, but is concerned that the line from Manchester will stop at Leeds and that the great city of Bradford will miss out; notes that Bradford has among the highest unemployment levels and indices of social deprivation in the country; and calls on the Prime Minister and the Government to back the extension of the line to Bradford and the crucial benefits it will bring.", "signature" : [{"_about" : "http://data.parliament.uk/resources/106734/signatures/1", "member" : [{"_about" : "http://data.parliament.uk/members/609", "fullName" : "Mr George Galloway", "party" : "Respect", "twitter" : "https://twitter.com/georgegalloway"}
+        ]}
+      ], "title" : "HS3 AND BRADFORD", "type" : "http://data.parliament.uk/schema/parl#EarlyDayMotion"}
+    , {"_about" : "http://data.parliament.uk/resources/106812", "motionText" : "That this House deplores the continued delays that surround the works that have been carried out on Belgrave Road, Belgrave, Leicester, by Sainsbury's and its contractor, Longcross;  notes the fact that these works were part of a deal entered into by Leicester City Council and Sainsbury's, allowing Sainsbury's to build a new store in Rushey Mead in exchange for paying for the demolishing of the Belgrave flyover and the roadworks; is appalled by the failure of Sainsbury's  representative, David Mills, to meet residents in public meetings, and feels working through expensive public relations firms is no substitute for such meetings; believes that the law should be changed, so that developers such as Sainsbury's should not be allowed to complete its developments without first completing community or local authority projects; and urges the Government to look into legislation to that effect.", "signature" : [{"_about" : "http://data.parliament.uk/resources/106812/signatures/1", "member" : [{"_about" : "http://data.parliament.uk/members/338", "fullName" : "Keith Vaz", "party" : "Labour", "twitter" : "https://twitter.com/Keith_VazMP"}
+        ]}
+      ], "title" : "SAINSBURY'S DELAYS IN BELGRAVE ROAD DEVELOPMENTS, LEICESTER", "type" : "http://data.parliament.uk/schema/parl#EarlyDayMotion"}
+    , {"_about" : "http://data.parliament.uk/resources/106850", "motionText" : "That this House applauds the superb work of Janice Moore who has retired as Director of Visas in Mumbai; acknowledges the very hard work done by her and other entry clearance officers and managers worldwide; notes that they are the front line in dealing with those who wish to come to visit or study in the UK; thanks Ms Moore for her public service and her unfailing courtesy and efficiency, which makes her a role model for other civil servants; and wishes her very well in the future.", "signature" : [{"_about" : "http://data.parliament.uk/resources/106850/signatures/1", "member" : [{"_about" : "http://data.parliament.uk/members/338", "fullName" : "Keith Vaz", "party" : "Labour", "twitter" : "https://twitter.com/Keith_VazMP"}
+        ]}
+      ], "title" : "JANICE MOORE AND MUMBAI", "type" : "http://data.parliament.uk/schema/parl#EarlyDayMotion"}
+    , {"_about" : "http://data.parliament.uk/resources/106543", "motionText" : "That this House notes the Conservative Party's policy to bring forward an in/out referendum in the next parliament, and growing support for such a vote in other UK political parties; further notes that academic research by Durham University and the University of East Anglia suggest that an in/out referendum on EU membership could generate a result in Scotland to stay in and a UK-wide result to exit; believes that the impact of an EU exit would be disastrous on jobs and on the economy; further believes that for any of the four constituent nations of the UK to be taken out of the EU against its wishes would be democratically indefensible; further notes the Prime Minister's description of the UK as a family of nations; and calls on the Government to support a requirement that for the UK to leave the EU, each of the four constituent nations, England, Scotland, Wales and Northern Ireland, would have to vote to do so, not just the UK as a whole.", "signature" : [{"_about" : "http://data.parliament.uk/resources/106543/signatures/1", "member" : [{"_about" : "http://data.parliament.uk/members/1433", "fullName" : "Angus Robertson", "party" : "Scottish National", "twitter" : "https://twitter.com/MorayMP"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106543/signatures/2", "member" : [{"_about" : "http://data.parliament.uk/members/1440", "fullName" : "Pete Wishart", "party" : "Scottish National", "twitter" : "https://twitter.com/PeteWishart"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106543/signatures/3", "member" : [{"_about" : "http://data.parliament.uk/members/1546", "fullName" : "Mr Angus Brendan MacNeil", "party" : "Scottish National", "twitter" : "https://twitter.com/AngusMacNeilMP"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106543/signatures/4", "member" : [{"_about" : "http://data.parliament.uk/members/1514", "fullName" : "Stewart Hosie", "party" : "Scottish National", "twitter" : "https://twitter.com/StewartHosieMP"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106543/signatures/5", "member" : [{"_about" : "http://data.parliament.uk/members/1384", "fullName" : "Mr Mike Weir", "party" : "Scottish National", "twitter" : "https://twitter.com/mikeweirsnp"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106543/signatures/6", "member" : [{"_about" : "http://data.parliament.uk/members/3911", "fullName" : "Dr Eilidh Whiteford", "party" : "Scottish National"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106543/signatures/7", "member" : [{"_about" : "http://data.parliament.uk/members/3930", "fullName" : "Caroline Lucas", "party" : "Green", "twitter" : "https://twitter.com/CarolineLucas"}
+        ]}
+      ], "title" : "NATIONS OF THE UNITED KINGDOM AND THE EU REFERENDUM", "type" : "http://data.parliament.uk/schema/parl#EarlyDayMotion"}
+    , {"_about" : "http://data.parliament.uk/resources/106565", "motionText" : "That this House notes recent reports that a private Christian school has had its rating downgraded from good to adequate by Ofsted, the school being told by Ofsted that it should invite representatives of other faith groups, such as an imam, to lead assemblies so that respect for other faiths could improve; and is concerned that the aftermath of the so-called Trojan Horse scandal involving hard-line Muslim groups allegedly infiltrating schools in Birmingham is being used to the detriment of Christian schools.", "signature" : [{"_about" : "http://data.parliament.uk/resources/106565/signatures/1", "member" : [{"_about" : "http://data.parliament.uk/members/1409", "fullName" : "Mr Gregory Campbell", "party" : "Democratic Unionist"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106565/signatures/2", "member" : [{"_about" : "http://data.parliament.uk/members/655", "fullName" : "Dr William McCrea", "party" : "Democratic Unionist"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106565/signatures/3", "member" : [{"_about" : "http://data.parliament.uk/members/650", "fullName" : "Mr Jeffrey M. Donaldson", "party" : "Democratic Unionist", "twitter" : "https://twitter.com/J_Donaldson_MP"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106565/signatures/4", "member" : [{"_about" : "http://data.parliament.uk/members/1597", "fullName" : "David Simpson", "party" : "Democratic Unionist", "twitter" : "https://twitter.com/DavidSimpsonMP"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106565/signatures/5", "member" : [{"_about" : "http://data.parliament.uk/members/4131", "fullName" : "Jim Shannon", "party" : "Democratic Unionist"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106565/signatures/6", "member" : [{"_about" : "http://data.parliament.uk/members/1388", "fullName" : "Mr Nigel Dodds", "party" : "Democratic Unionist", "twitter" : "https://twitter.com/NigelDoddsMP"}
+        ]}
+      ], "title" : "OFSTED AND CHRISTIAN SCHOOLS", "type" : "http://data.parliament.uk/schema/parl#EarlyDayMotion"}
+    , {"_about" : "http://data.parliament.uk/resources/106495", "motionText" : "That this House salutes the bravery of the armed forces who served in Afghanistan and records with sorrow the deaths of Corporal Nicholas Webster-Smith, Royal Military Police, aged 24, from Glangwili, Staff Sergeant Olaf Sean George Schmid, Royal Logistic Corps, aged 30, from Truro, Corporal Thomas 'Tam' Mason, the Black Watch, 3rd Battalion the Royal Regiment of Scotland, aged 27, from Rosyth, Corporal James Oakland, Royal Military Police, aged 26, from Manchester, Lance Corporal James Hill, 1st Battalion Coldstream Guards, aged 23, from Redhill, Surrey, Guardsman James Janes, 1st Battalion Grenadier Guards, aged 20, from Brighton, Acting Corporal Marcin Wojtak, 34 Squadron RAF regiment, aged 24, from Leicester, Private James Prosser, 2nd Battalion The Royal Welsh, aged 21, from Cwmbran, Acting Sergeant Michael Lockett MC, 2nd Battalion The Mercian Regiment, from Monifieth in Angus, Acting Sergeant Stuart McGrath, 2nd Battalion, The Rifles, aged 28, from Buckinghamshire, Trooper Brett Hall, 2nd Royal Tank Regiment, aged 21, from Dartmouth, Kingsman Jason Dunn-Bridgeman, 2nd Battalion The Duke of Lancaster's Regiment, aged 20, from Liverpool, Corporal John Harrison, The Parachute Regiment, Private Gavin Elliott, 2nd Battalion The Mercian Regiment, aged 19, from Woodsetts, Worksop, Nottinghamshire, Lance Corporal Richard Brandon, Royal Electrical and Mechanical Engineers, aged 24, from Kidderminster, Sergeant Stuart 'Gus' Millar, The Black Watch, 3rd Battalion The Royal Regiment of Scotland, aged 40, from Inverness, Private Kevin Elliott, The Black Watch, 3rd Battalion The Royal Regiment of Scotland, aged 24, from Dundee, and Sergeant Lee Andrew Houltram, Royal Marines.", "signature" : [{"_about" : "http://data.parliament.uk/resources/106495/signatures/1", "member" : [{"_about" : "http://data.parliament.uk/members/545", "fullName" : "Paul Flynn", "party" : "Labour", "twitter" : "https://twitter.com/Paulflynnmp"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106495/signatures/10", "member" : [{"_about" : "http://data.parliament.uk/members/2", "fullName" : "Kelvin Hopkins", "party" : "Labour"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106495/signatures/11", "member" : [{"_about" : "http://data.parliament.uk/members/185", "fullName" : "Jeremy Corbyn", "party" : "Labour", "twitter" : "https://twitter.com/jeremycorbyn"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106495/signatures/12", "member" : [{"_about" : "http://data.parliament.uk/members/308", "fullName" : "Mr Jim Cunningham", "party" : "Labour"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106495/signatures/13", "member" : [{"_about" : "http://data.parliament.uk/members/1384", "fullName" : "Mr Mike Weir", "party" : "Scottish National", "twitter" : "https://twitter.com/mikeweirsnp"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106495/signatures/14", "member" : [{"_about" : "http://data.parliament.uk/members/655", "fullName" : "Dr William McCrea", "party" : "Democratic Unionist"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106495/signatures/15", "member" : [{"_about" : "http://data.parliament.uk/members/1597", "fullName" : "David Simpson", "party" : "Democratic Unionist", "twitter" : "https://twitter.com/DavidSimpsonMP"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106495/signatures/16", "member" : [{"_about" : "http://data.parliament.uk/members/4044", "fullName" : "Andrew Stephenson", "party" : "Conservative", "twitter" : "https://twitter.com/Andrew4Pendle"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106495/signatures/17", "member" : [{"_about" : "http://data.parliament.uk/members/3930", "fullName" : "Caroline Lucas", "party" : "Green", "twitter" : "https://twitter.com/CarolineLucas"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106495/signatures/2", "member" : [{"_about" : "http://data.parliament.uk/members/514", "fullName" : "Mr Ronnie Campbell", "party" : "Labour"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106495/signatures/3", "member" : [{"_about" : "http://data.parliament.uk/members/1486", "fullName" : "Mr David Anderson", "party" : "Labour"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106495/signatures/4", "member" : [{"_about" : "http://data.parliament.uk/members/1409", "fullName" : "Mr Gregory Campbell", "party" : "Democratic Unionist"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106495/signatures/5", "member" : [{"_about" : "http://data.parliament.uk/members/361", "fullName" : "Sir Alan Meale", "party" : "Labour"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106495/signatures/6", "member" : [{"_about" : "http://data.parliament.uk/members/566", "fullName" : "Martin Caton", "party" : "Labour"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106495/signatures/7", "member" : [{"_about" : "http://data.parliament.uk/members/4126", "fullName" : "Mrs Mary Glindon", "party" : "Labour"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106495/signatures/8", "member" : [{"_about" : "http://data.parliament.uk/members/59", "fullName" : "Mr Mike Hancock", "party" : "Independent"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106495/signatures/9", "member" : [{"_about" : "http://data.parliament.uk/members/54", "fullName" : "Dr Julian Lewis", "party" : "Conservative"}
+        ]}
+      ], "title" : "FATALITIES IN AFGHANISTAN (No. 15)", "type" : "http://data.parliament.uk/schema/parl#EarlyDayMotion"}
+    , {"_about" : "http://data.parliament.uk/resources/106504", "motionText" : "That this House welcomes the Â£935,700 award from the Heritage Lottery Fund towards the redevelopment of the Dylan Thomas Exhibition, Swansea, allowing for unique memorabilia, previously kept in archives, to be placed on display; notes that this award has also enabled the development of educational facilities and work with local schools and community groups; and is delighted that the Dylan Thomas Centre will officially reopen to the public in time to mark the centenary of Dylan Thomas's birth on 27 October 2014.", "signature" : [{"_about" : "http://data.parliament.uk/resources/106504/signatures/1", "member" : [{"_about" : "http://data.parliament.uk/members/155", "fullName" : "Geraint Davies", "party" : "Labour (Co-op)", "twitter" : "https://twitter.com/GeraintDaviesMP"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106504/signatures/10", "member" : [{"_about" : "http://data.parliament.uk/members/1486", "fullName" : "Mr David Anderson", "party" : "Labour"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106504/signatures/11", "member" : [{"_about" : "http://data.parliament.uk/members/361", "fullName" : "Sir Alan Meale", "party" : "Labour"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106504/signatures/12", "member" : [{"_about" : "http://data.parliament.uk/members/4131", "fullName" : "Jim Shannon", "party" : "Democratic Unionist"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106504/signatures/13", "member" : [{"_about" : "http://data.parliament.uk/members/227", "fullName" : "Andrew George", "party" : "Liberal Democrat", "twitter" : "https://twitter.com/AndrewGeorgeLD"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106504/signatures/14", "member" : [{"_about" : "http://data.parliament.uk/members/59", "fullName" : "Mr Mike Hancock", "party" : "Independent"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106504/signatures/15", "member" : [{"_about" : "http://data.parliament.uk/members/54", "fullName" : "Dr Julian Lewis", "party" : "Conservative"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106504/signatures/16", "member" : [{"_about" : "http://data.parliament.uk/members/2", "fullName" : "Kelvin Hopkins", "party" : "Labour"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106504/signatures/17", "member" : [{"_about" : "http://data.parliament.uk/members/4076", "fullName" : "Valerie Vaz", "party" : "Labour", "twitter" : "https://twitter.com/Valerie_VazMP"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106504/signatures/18", "member" : [{"_about" : "http://data.parliament.uk/members/185", "fullName" : "Jeremy Corbyn", "party" : "Labour", "twitter" : "https://twitter.com/jeremycorbyn"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106504/signatures/19", "member" : [{"_about" : "http://data.parliament.uk/members/1604", "fullName" : "Mr Virendra Sharma", "party" : "Labour", "twitter" : "https://twitter.com/VirendraSharma"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106504/signatures/2", "member" : [{"_about" : "http://data.parliament.uk/members/566", "fullName" : "Martin Caton", "party" : "Labour"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106504/signatures/20", "member" : [{"_about" : "http://data.parliament.uk/members/3943", "fullName" : "Jonathan Edwards", "party" : "Plaid Cymru", "twitter" : "https://twitter.com/JonathanPlaid"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106504/signatures/3", "member" : [{"_about" : "http://data.parliament.uk/members/4061", "fullName" : "Bill Esterson", "party" : "Labour", "twitter" : "https://twitter.com/BillEstersonMP"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106504/signatures/4", "member" : [{"_about" : "http://data.parliament.uk/members/4040", "fullName" : "Chris Evans", "party" : "Labour (Co-op)"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106504/signatures/5", "member" : [{"_about" : "http://data.parliament.uk/members/1573", "fullName" : "Mrs SiÃ¢n C. James", "party" : "Labour"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106504/signatures/6", "member" : [{"_about" : "http://data.parliament.uk/members/553", "fullName" : "Ann Clwyd", "party" : "Labour", "twitter" : "https://twitter.com/AnnClwyd"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106504/signatures/7", "member" : [{"_about" : "http://data.parliament.uk/members/545", "fullName" : "Paul Flynn", "party" : "Labour", "twitter" : "https://twitter.com/Paulflynnmp"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106504/signatures/8", "member" : [{"_about" : "http://data.parliament.uk/members/1382", "fullName" : "Dr Hywel Francis", "party" : "Labour"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106504/signatures/9", "member" : [{"_about" : "http://data.parliament.uk/members/325", "fullName" : "Mr Dennis Skinner", "party" : "Labour"}
+        ]}
+      ], "title" : "REDEVELOPMENT OF THE DYLAN THOMAS CENTRE, SWANSEA", "type" : "http://data.parliament.uk/schema/parl#EarlyDayMotion"}
+    , {"_about" : "http://data.parliament.uk/resources/106511", "motionText" : "That this House salutes the bravery of the armed forces who served in Afghanistan and records with sorrow the deaths of Lance Corporal Tommy Brown, The Parachute Regiment, Lance Corporal Christopher Roney, A Company, 3rd Battalion The Rifles, aged 23, from Sunderland, Lance Corporal Michael David Pritchard, 4th Regiment, Royal Military Police, aged 22, from Maidstone, Corporal Simon Hornby, 2nd Battalion The Duke of Lancaster's Regiment, aged 29, from Liverpool, Lance Corporal David Leslie Kirkness, 3rd Battalion The Rifles, aged 24, from West Yorkshire, Rifleman James Stephen Brown, 3rd Battalion The Rifles, aged 18, from Kent, Lance Corporal Adame Drane, 1st Battalion The Royal Anglian Regiment, aged 23, from Bury St Edmunds, Acting Sergeant John Paxton Amer, 1st Battalion Coldstream Guards, from Sunderland, Sergeant Robert David Loughran-Dickson, 4th Regiment Royal Military Police, aged 33, from Deal, Kent, Corporal Loren Owen Christopher Marlton-Thomas, 33 Engineer Regiment (EOD), aged 28, Rifleman Andrew Ian Fentiman, 7th Battalion The Rifles, aged 23, from Cambridge, Rifleman Samuel John Bassett, 4th Battalion The Rifles, aged 20, from Plymouth, Rifleman Philip Allen, 2 Rifles, aged 20, from Dorset, Sergeant Phillip Scott, 3rd Battalion The Rifles, aged 30, from Malton, Warrant Officer Class 1 Darren Chant, 1st Battalion The Grenadier Guards, aged 40, from Walthamstow, Sergeant Matthew Telford, 1st Battalion The Grenadier Guards, aged 37, from Grimsby, Guardsman James Major, 1st Battalion The Grenadier Guards, aged 18, from Grimsby, and Corporal Steven Boote, Royal Military Police, aged 22, from Birkenhead, Liverpool.", "signature" : [{"_about" : "http://data.parliament.uk/resources/106511/signatures/1", "member" : [{"_about" : "http://data.parliament.uk/members/545", "fullName" : "Paul Flynn", "party" : "Labour", "twitter" : "https://twitter.com/Paulflynnmp"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106511/signatures/10", "member" : [{"_about" : "http://data.parliament.uk/members/2", "fullName" : "Kelvin Hopkins", "party" : "Labour"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106511/signatures/11", "member" : [{"_about" : "http://data.parliament.uk/members/185", "fullName" : "Jeremy Corbyn", "party" : "Labour", "twitter" : "https://twitter.com/jeremycorbyn"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106511/signatures/12", "member" : [{"_about" : "http://data.parliament.uk/members/308", "fullName" : "Mr Jim Cunningham", "party" : "Labour"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106511/signatures/13", "member" : [{"_about" : "http://data.parliament.uk/members/1384", "fullName" : "Mr Mike Weir", "party" : "Scottish National", "twitter" : "https://twitter.com/mikeweirsnp"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106511/signatures/14", "member" : [{"_about" : "http://data.parliament.uk/members/655", "fullName" : "Dr William McCrea", "party" : "Democratic Unionist"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106511/signatures/15", "member" : [{"_about" : "http://data.parliament.uk/members/1597", "fullName" : "David Simpson", "party" : "Democratic Unionist", "twitter" : "https://twitter.com/DavidSimpsonMP"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106511/signatures/16", "member" : [{"_about" : "http://data.parliament.uk/members/4044", "fullName" : "Andrew Stephenson", "party" : "Conservative", "twitter" : "https://twitter.com/Andrew4Pendle"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106511/signatures/17", "member" : [{"_about" : "http://data.parliament.uk/members/3930", "fullName" : "Caroline Lucas", "party" : "Green", "twitter" : "https://twitter.com/CarolineLucas"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106511/signatures/2", "member" : [{"_about" : "http://data.parliament.uk/members/514", "fullName" : "Mr Ronnie Campbell", "party" : "Labour"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106511/signatures/3", "member" : [{"_about" : "http://data.parliament.uk/members/1486", "fullName" : "Mr David Anderson", "party" : "Labour"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106511/signatures/4", "member" : [{"_about" : "http://data.parliament.uk/members/1409", "fullName" : "Mr Gregory Campbell", "party" : "Democratic Unionist"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106511/signatures/5", "member" : [{"_about" : "http://data.parliament.uk/members/361", "fullName" : "Sir Alan Meale", "party" : "Labour"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106511/signatures/6", "member" : [{"_about" : "http://data.parliament.uk/members/566", "fullName" : "Martin Caton", "party" : "Labour"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106511/signatures/7", "member" : [{"_about" : "http://data.parliament.uk/members/4126", "fullName" : "Mrs Mary Glindon", "party" : "Labour"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106511/signatures/8", "member" : [{"_about" : "http://data.parliament.uk/members/59", "fullName" : "Mr Mike Hancock", "party" : "Independent"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106511/signatures/9", "member" : [{"_about" : "http://data.parliament.uk/members/54", "fullName" : "Dr Julian Lewis", "party" : "Conservative"}
+        ]}
+      ], "title" : "FATALITIES IN AFGHANISTAN (No. 14)", "type" : "http://data.parliament.uk/schema/parl#EarlyDayMotion"}
+    , {"_about" : "http://data.parliament.uk/resources/106518", "motionText" : "That this House salutes the bravery of the armed forces who served in Afghanistan and records with sorrow the deaths of Sapper Elijah Bond, 35  Engineer Regiment Royal Engineers, aged 24, from St Austell, Rifleman Sheldon Lee Jordan Steel, 5th Battalion The Rifles, aged 20, from Leeds, Private Thomas Christopher Lake, 1st Battalion The Princess of Wales's Royal Regiment, aged 29, from Watford, Lieutenant David Boyce, 1st The Queen's Dragoon Guards, aged 25, from Welwyn Garden City, Hertfordshire, Lance Corporal Richard Scanlon, 1st The Queen's Dragoons Guards, aged 31, from Rhymney, Gwent, Lance Corporal Peter Eustace, 2nd Battalion The Riffle, aged 25, from Liverpool, Private Matthew Thornton, 4th Battalion The Yorkshire Regiment, aged 28, from Barnsley, Private Matthew James Sean Haseldin, 2nd Battalion The Mercia Regiment, aged 21, from Settle, Yorkshire, Rifleman Vijay Rai, 2nd Battalion The Royal Gurkha Rifles, aged 21, from the Bhojpur District, Deaurali East of Nepal, Marine David Fairbrother, Kilo Company, 42 Commando Royal Marines, aged 24, from Blackburn, Lance Corporal Jonathan James McKinley, 1st Battalion The Rifles, aged 33, from Darlington, County Durham, Sergeant Barry John Weston, Kilo Company, 42 Commando Royal Marines, aged 40, from Reading, Lieutenant Daniel John Clack, 1st Battalion The Rifles, aged 24, from North London, Marine James Robert Wright, 42 Commando Royal Marines, aged 22, from Weymouth and Corporal Mark Anthony Palin, 1st Battalion The Rifles, aged 32, from Plymouth.", "signature" : [{"_about" : "http://data.parliament.uk/resources/106518/signatures/1", "member" : [{"_about" : "http://data.parliament.uk/members/545", "fullName" : "Paul Flynn", "party" : "Labour", "twitter" : "https://twitter.com/Paulflynnmp"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106518/signatures/10", "member" : [{"_about" : "http://data.parliament.uk/members/2", "fullName" : "Kelvin Hopkins", "party" : "Labour"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106518/signatures/11", "member" : [{"_about" : "http://data.parliament.uk/members/185", "fullName" : "Jeremy Corbyn", "party" : "Labour", "twitter" : "https://twitter.com/jeremycorbyn"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106518/signatures/12", "member" : [{"_about" : "http://data.parliament.uk/members/308", "fullName" : "Mr Jim Cunningham", "party" : "Labour"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106518/signatures/13", "member" : [{"_about" : "http://data.parliament.uk/members/1384", "fullName" : "Mr Mike Weir", "party" : "Scottish National", "twitter" : "https://twitter.com/mikeweirsnp"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106518/signatures/14", "member" : [{"_about" : "http://data.parliament.uk/members/655", "fullName" : "Dr William McCrea", "party" : "Democratic Unionist"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106518/signatures/15", "member" : [{"_about" : "http://data.parliament.uk/members/1597", "fullName" : "David Simpson", "party" : "Democratic Unionist", "twitter" : "https://twitter.com/DavidSimpsonMP"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106518/signatures/16", "member" : [{"_about" : "http://data.parliament.uk/members/4044", "fullName" : "Andrew Stephenson", "party" : "Conservative", "twitter" : "https://twitter.com/Andrew4Pendle"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106518/signatures/17", "member" : [{"_about" : "http://data.parliament.uk/members/3930", "fullName" : "Caroline Lucas", "party" : "Green", "twitter" : "https://twitter.com/CarolineLucas"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106518/signatures/2", "member" : [{"_about" : "http://data.parliament.uk/members/514", "fullName" : "Mr Ronnie Campbell", "party" : "Labour"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106518/signatures/3", "member" : [{"_about" : "http://data.parliament.uk/members/1486", "fullName" : "Mr David Anderson", "party" : "Labour"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106518/signatures/4", "member" : [{"_about" : "http://data.parliament.uk/members/1409", "fullName" : "Mr Gregory Campbell", "party" : "Democratic Unionist"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106518/signatures/5", "member" : [{"_about" : "http://data.parliament.uk/members/361", "fullName" : "Sir Alan Meale", "party" : "Labour"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106518/signatures/6", "member" : [{"_about" : "http://data.parliament.uk/members/566", "fullName" : "Martin Caton", "party" : "Labour"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106518/signatures/7", "member" : [{"_about" : "http://data.parliament.uk/members/4126", "fullName" : "Mrs Mary Glindon", "party" : "Labour"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106518/signatures/8", "member" : [{"_about" : "http://data.parliament.uk/members/59", "fullName" : "Mr Mike Hancock", "party" : "Independent"}
+        ]}
+      , {"_about" : "http://data.parliament.uk/resources/106518/signatures/9", "member" : [{"_about" : "http://data.parliament.uk/members/54", "fullName" : "Dr Julian Lewis", "party" : "Conservative"}
+        ]}
+      ], "title" : "FATALITIES IN AFGHANISTAN (No. 5)", "type" : "http://data.parliament.uk/schema/parl#EarlyDayMotion"}
+    ], "itemsPerPage" : 10, "next" : "http://lda.data.parliament.uk/edms.json?_sort=-dateTabled&_properties=title,motionText,signature.member.twitter,signature.member.fullName,signature.member.party&_view=basic&_pageSize=10&_page=1", "page" : 0, "startIndex" : 1, "totalResults" : 20178, "type" : "http://purl.org/linked-data/api/vocab#Page"}
+}

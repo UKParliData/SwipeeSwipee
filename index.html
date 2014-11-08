@@ -1,4 +1,48 @@
+﻿<!DOCTYPE html>
 <html>
-<head></head>
-<body>Test</body>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>SwipeeSwipee</title>
+    <link rel="stylesheet" type="text/css" href="Content/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="Content/spinkit.css" />
+    <link rel="stylesheet" type="text/css" href="Content/SwipeeSwipee.css" />
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-sharp-corners">
+        <div class="container text-center">
+            <img src="Content/images/logo.png" width="705" height="85" alt="SwipeeSwipee" />
+            <div class="nav navbar-nav navbar-right pull-bottom-padding-60">
+                <span>
+                    <strong>Data Matters</strong>
+                    <small>by <a href="http://www.data.parliament.uk" target="_blank">DDP</a></small>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- ko if: isLoading()==true -->
+                    <div class="row">
+                        <div class="col-md-1 col-md-offset-5">
+                            <busy-indicator></busy-indicator>
+                        </div>
+                    </div>
+                <!-- /ko -->
+                <!--ko if: ((selectedComponent()!=null) && (selectedComponent()!=''))-->
+                    <div data-bind="component: { name: selectedComponent, params: parameters }"></div>
+                <!-- /ko -->
+            </div>
+        </div>
+    </div>
+    <script src="Scripts/jquery-2.1.1.min.js"></script>
+    <script src="Scripts/jquery-ui.min-1.11.1.js"></script>
+    <script src="Scripts/knockout-3.2.0.js"></script>
+    <script src="Scripts/SwipeeSwipee.js"></script>
+    <script data-main="Scripts/modules/main" src="Scripts/require.js"></script>
+</body>
 </html>

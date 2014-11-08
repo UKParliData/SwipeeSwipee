@@ -1,0 +1,51 @@
+﻿.navbar-sharp-corners {
+    border-radius:0px;
+}
+
+.pull-bottom-padding-60{
+    padding-top:60px;
+}
+
+.busy-indicator-height {
+    height:15px;    
+}
+
+.edm-body{
+    min-height: 400px;
+}
+
+.panel-edm{
+    z-index:100;
+    padding:10px;
+}
+
+.edm-picture{
+    position: absolute;
+    top:0;
+    z-index:-1;
+}
+
+.edm-picture img{
+    opacity: 0.5;
+}
+
+.controls{
+    position: fixed;
+    z-index:20;
+}
+
+.glyphicon-big{
+    font-size:40px;
+    opacity:0.5;
+    cursor:pointer;
+}
+
+.glyphicon-ok-circle:hover{
+    color:#2b542c;
+    opacity:0.8;
+}
+
+.glyphicon-remove-circle:hover {
+    color: #843534;
+    opacity:0.8;
+}
