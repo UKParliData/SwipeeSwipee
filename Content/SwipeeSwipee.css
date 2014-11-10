@@ -13,27 +13,14 @@
 
 .edm-body{
     min-height: 400px;
-    position:relative;
 }
 
 .panel-edm{
-    z-index:100;
     padding:10px;
-}
-
-.edm-picture{
-    position: absolute;
-    top:0;
-    z-index:-1;
-}
-
-.edm-picture img{
-    opacity: 0.5;
 }
 
 .controls{
     position: fixed;
-    z-index:20;
 }
 
 .glyphicon-big{
@@ -50,4 +37,8 @@
 .glyphicon-remove-circle:hover {
     color: #843534;
     opacity:0.8;
+}
+
+td{
+    vertical-align:middle!important;
 }

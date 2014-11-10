@@ -10,7 +10,7 @@ define(['Scripts/text!modules/singletile.html'], function (htmlText) {
             self.pictureWidth = ko.observable(0);
             self.pictureHeight = ko.observable(0);
             self.mps = ko.observableArray([]);
-            self.winningMP = ko.observable();
+            self.winningMPs = ko.observable();
 
             self.currentEdm = ko.pureComputed(function () {
                 self.pictureWidth($(".edm-body").width());
@@ -31,7 +31,7 @@ define(['Scripts/text!modules/singletile.html'], function (htmlText) {
                         for (var j = 0; j < self.mps().length; j++)
                             if (self.mps()[j].id == signatures[i].id) {
                                 isFound = true;
-                                self.mps()[j].score += 1;
+                                self.mps()[j].score(self.mps()[j].score() + 1);
                                 break;
                             }
                         if (isFound == false)
@@ -46,9 +46,9 @@ define(['Scripts/text!modules/singletile.html'], function (htmlText) {
                 if ((mps==null) || (mps.length == 0))
                     return null;
                 mps.sort(function (left, right) {
-                    return left.score === right.score ? (left.id*1) - (right.id*1) : left.score < right.score ? 1 : -1;
+                    return left.score() === right.score() ? (left.id*1) - (right.id*1) : left.score() < right.score() ? 1 : -1;
                 });
-                self.winningMP(mps[0]);
+                self.winningMPs(mps.slice(0,3));
             };
 
             self.edmIsLiked = function () {
@@ -80,7 +80,7 @@ define(['Scripts/text!modules/singletile.html'], function (htmlText) {
             self.showResults = function () {
                 var mps = self.mps();
                 mps.sort(function (left, right) {
-                    return left.score === right.score ? (left.id * 1) - (right.id * 1) : left.score < right.score ? 1 : -1;
+                    return left.score() === right.score() ? (left.id * 1) - (right.id * 1) : left.score() < right.score() ? 1 : -1;
                 });
                 window.conductorVM.parameters({ mps: mps });
                 window.conductorVM.selectedComponent("result-list");

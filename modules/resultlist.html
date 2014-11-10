@@ -2,15 +2,19 @@
 <table class="table table-striped">
     <thead>
         <tr>
+            <th></th>
             <th>Score</th>
             <th>Name</th>
+            <th>Party</th>
             <th>Twitter</th>
         </tr>
     </thead>
     <tbody data-bind="foreach: mps">
         <tr>
+            <td><img data-bind="attr: {src: 'http://data.members.parliament.uk/services/images/memberphoto/'+id }" alt="MP" height="50" /></td>
             <td data-bind="text: score"></td>
             <td data-bind="text: name"></td>
+            <td data-bind="text: party"></td>
             <td><a data-bind="attr:{href: twitter}, text:twitter"></a></td>
         </tr>
     </tbody>

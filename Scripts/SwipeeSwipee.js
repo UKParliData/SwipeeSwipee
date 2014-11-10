@@ -31,29 +31,29 @@
                 this.name = name;
                 this.party = party;
                 this.twitter = twitter;
-                this.score = 1;
+                this.score = ko.observable(1);
             };
 
             Generic.prototype.earlyDatMotion = function (urlId, title, motionText, signatures) {
                 this.id = window.SwipeeSwipee.getIdfromUrl(urlId);
                 this.title = title;
                 this.displayTitle = title;
-                if (this.displayTitle.length > 40)
-                    this.displayTitle = this.displayTitle.substring(0, 40) + "...";
+                if (this.displayTitle.length > 30)
+                    this.displayTitle = this.displayTitle.substring(0, 30) + "...";
                 this.motionText = motionText;
                 this.displayMotionText = motionText;
-                if (this.displayMotionText.length > 600)
-                    this.displayMotionText = this.displayMotionText.substring(0, 600) + "...";
+                if (this.displayMotionText.length > 500)
+                    this.displayMotionText = this.displayMotionText.substring(0, 500) + "...";
                 this.signatures = [];
-                this.tablingMemberId = ko.observable(0);
+                this.tablingMemberId = 0;
                 this.isLiked = ko.observable(null);
                 for (var i = 0; i < signatures.length; i++) {
                     if (signatures[i].member[0]._about == null)
                         continue;
                     var member = new window.SwipeeSwipee.member(signatures[i].member[0]._about, signatures[i].member[0].fullName, signatures[i].member[0].party, signatures[i].member[0].twitter);
-                    if (this.tablingMemberId() == 0) {
+                    if (this.tablingMemberId == 0) {
                         if (window.SwipeeSwipee.getIdfromUrl(signatures[i]._about) == 1)
-                            this.tablingMemberId(member.id);
+                            this.tablingMemberId = member.id;
                     }
                     this.signatures.push(member);
                 }

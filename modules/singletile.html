@@ -1,14 +1,18 @@
 ﻿<div class="panel panel-warning edm-body">
-    <!--<div class="edm-picture">
-        <img data-bind="attr:{src:'http://lorempixel.com/'+pictureWidth()+'/'+pictureHeight()+'/nature/'}" />
-    </div>-->
     <div class="panel-body panel-edm">
-        <div class="edm-text">
-            <div class="text-center">
-                <h1 data-bind="text: currentEdm().displayTitle"></h1>
+        <div class="row">
+            <div class="col-md-2">
+                <img data-bind="attr: {src: 'http://data.members.parliament.uk/services/images/memberphoto/'+currentEdm().tablingMemberId }" alt="MP" />
             </div>
-            <div class="text-justify">
-                <h2 data-bind="text: currentEdm().displayMotionText"></h2>
+            <div class="col-md-10">
+                <div class="edm-text">
+                    <div class="text-center">
+                        <h1 data-bind="text: currentEdm().displayTitle"></h1>
+                    </div>
+                    <div class="text-justify">
+                        <h2 data-bind="text: currentEdm().displayMotionText"></h2>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -21,11 +25,15 @@
         <span class="glyphicon glyphicon-ok-circle glyphicon-big" data-bind="event:{click:edmIsLiked}"></span>
     </div>
 </div>
-<!-- ko if: winningMP()!=null-->
-<div class="form-inline">
-    <div class="form-group">
-        <h4><span data-bind="text: winningMP().name"></span> <strong data-bind="text: winningMP().score"></strong></h4>
-    </div>
-    <button type="button" class="btn btn-primary" data-bind="click: showResults">Show full results</button>
-</div>
+<!-- ko if: winningMPs()!=null-->
+    <ul class="list-group" data-bind="foreach: winningMPs">
+        <li class="list-group-item">
+            <h4>
+                <img data-bind="attr: {src: 'http://data.members.parliament.uk/services/images/memberphoto/'+id }" alt="MP" height="50" />
+                <span data-bind="text: name"></span>
+                <strong data-bind="text: score"></strong>
+            </h4>
+        </li>
+    </ul>
+<button type="button" class="btn btn-primary" data-bind="click: showResults">Show full results</button>
 <!-- /ko -->
