@@ -42,7 +42,7 @@
                     this.displayTitle = this.displayTitle.substring(0, 30) + "...";
                 this.motionText = motionText;
                 this.displayMotionText = motionText;
-                if (this.displayMotionText.length > 500)
+                if (this.displayMotionText.length > 750)
                     this.displayMotionText = this.displayMotionText.substring(0, 500) + "...";
                 this.signatures = [];
                 this.tablingMemberId = 0;
