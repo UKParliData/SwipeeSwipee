@@ -107,7 +107,7 @@ define(['Scripts/text!modules/singletile.html'], function (htmlText) {
                     },
                     self.retriveEdms);
             });
-
+            
             self.dispose = function () {
                 self.showInfo.dispose();
             };
