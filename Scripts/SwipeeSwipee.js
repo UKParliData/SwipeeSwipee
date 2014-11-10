@@ -43,7 +43,7 @@
                 this.motionText = motionText;
                 this.displayMotionText = motionText;
                 if (this.displayMotionText.length > 750)
-                    this.displayMotionText = this.displayMotionText.substring(0, 500) + "...";
+                    this.displayMotionText = this.displayMotionText.substring(0, 750) + "...";
                 this.signatures = [];
                 this.tablingMemberId = 0;
                 this.isLiked = ko.observable(null);

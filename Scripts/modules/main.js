@@ -1,7 +1,7 @@
 ﻿(function () {
     require.config({
         baseUrl: "/",
-        urlArgs: "bust="+(new Date()).getTime().toLocaleString()
+        urlArgs: "bust=v1"
     });
     
     define(['Scripts/modules/conductor'], function (conductor) {
