@@ -38,12 +38,12 @@
                 this.id = window.SwipeeSwipee.getIdfromUrl(urlId);
                 this.title = title;
                 this.displayTitle = title;
-                if (this.displayTitle.length > 30)
-                    this.displayTitle = this.displayTitle.substring(0, 30) + "...";
+                if (this.displayTitle.length > 50)
+                    this.displayTitle = this.displayTitle.substring(0, 50) + "...";
                 this.motionText = motionText;
                 this.displayMotionText = motionText;
-                if (this.displayMotionText.length > 750)
-                    this.displayMotionText = this.displayMotionText.substring(0, 750) + "...";
+                if (this.displayMotionText.length > 1000)
+                    this.displayMotionText = this.displayMotionText.substring(0, 1000) + "...";
                 this.signatures = [];
                 this.tablingMemberId = 0;
                 this.isLiked = ko.observable(null);

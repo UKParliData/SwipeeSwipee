@@ -1,4 +1,4 @@
-﻿<div class="panel panel-warning edm-body">
+﻿<div class="panel panel-warning edm-body" data-bind="event:{swipeleft: edmIsNotLiked, swiperight: edmIsLiked}">
     <div class="panel-body panel-edm">
         <div class="row">
             <div class="col-md-2">
@@ -7,10 +7,10 @@
             <div class="col-md-10">
                 <div class="edm-text">
                     <div class="text-center">
-                        <h1 data-bind="text: currentEdm().displayTitle"></h1>
+                        <h2 data-bind="text: currentEdm().displayTitle"></h2>
                     </div>
                     <div class="text-justify">
-                        <h2 data-bind="text: currentEdm().displayMotionText"></h2>
+                        <h3 data-bind="text: currentEdm().displayMotionText"></h3>
                     </div>
                 </div>
             </div>

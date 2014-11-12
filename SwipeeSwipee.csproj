@@ -64,19 +64,6 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\images\logo.png" />
-    <Content Include="Content\jquery.mobile-1.4.2.css" />
-    <Content Include="Content\jquery.mobile.external-png-1.4.2.css" />
-    <Content Include="Content\jquery.mobile.external-png-1.4.2.min.css" />
-    <Content Include="Content\jquery.mobile.icons-1.4.2.css" />
-    <Content Include="Content\jquery.mobile.icons-1.4.2.min.css" />
-    <Content Include="Content\jquery.mobile.inline-png-1.4.2.css" />
-    <Content Include="Content\jquery.mobile.inline-png-1.4.2.min.css" />
-    <Content Include="Content\jquery.mobile.inline-svg-1.4.2.css" />
-    <Content Include="Content\jquery.mobile.inline-svg-1.4.2.min.css" />
-    <Content Include="Content\jquery.mobile.structure-1.4.2.css" />
-    <Content Include="Content\jquery.mobile.structure-1.4.2.min.css" />
-    <Content Include="Content\jquery.mobile.theme-1.4.2.css" />
-    <Content Include="Content\jquery.mobile.theme-1.4.2.min.css" />
     <Content Include="Content\spinkit.css" />
     <Content Include="Content\SwipeeSwipee.css" />
     <Content Include="Content\themes\base\accordion.css" />
@@ -119,8 +106,7 @@
     <Content Include="modules\singletile.html" />
     <Content Include="Scripts\jquery-ui-1.11.1.js" />
     <Content Include="Scripts\jquery-ui.min-1.11.1.js" />
-    <Content Include="Scripts\jquery.mobile-1.4.2.js" />
-    <Content Include="Scripts\jquery.mobile-1.4.2.min.js" />
+    <Content Include="Scripts\jquery.mobile.custom.js" />
     <Content Include="Scripts\modules\conductor.js" />
     <Content Include="Scripts\modules\main.js" />
     <Content Include="packages.config" />
@@ -132,10 +118,9 @@
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Scripts\jquery-2.1.1.js" />
+    <Content Include="jquery-2.1.1.js" />
     <Content Include="Scripts\jquery-2.1.1.min.js" />
     <Content Include="Scripts\jquery-2.1.1.min.map" />
-    <Content Include="Scripts\jquery.mobile-1.4.2.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
